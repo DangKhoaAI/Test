@@ -63,9 +63,14 @@ def insert(self, data, k):
         curr.next=newNode
         newNode.next=tmp
         self.size-=1
-if __name__=="__main__":
+def main():
     ll=LinkedList()
     ll.pushFront(2)
     ll.pushFront(6)
     ll.pushFront(4)
     ll.pushFront(5)
+    ll.print()
+    print()
+    ll.print()
+if __name__=="__main__":
+    main()
